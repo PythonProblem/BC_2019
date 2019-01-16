@@ -13,7 +13,10 @@ __pragma__('tconv')
 class MyRobot(BCAbstractRobot):
 
     round = -1
-    initial_pilgrims = 5
+
+    initial_pilgrims = 1
+    initial_crusaders = 1
+    
     surrounding_tiles = [
         [-1,-1], #Top-Left
         [0,-1],  #Top
@@ -22,8 +25,10 @@ class MyRobot(BCAbstractRobot):
         [1,1],   #Bottom-Right
         [0,1],   #Bottom
         [-1,1],  #Bottom-Left
-        [-1,0]  #Left
+        [-1,0]   #Left
     ]
+
+    destination = None
 
     def turn(self):
         self.round += 1
@@ -32,6 +37,7 @@ class MyRobot(BCAbstractRobot):
         karbonite_map = self.get_karbonite_map()
         visible_map = self.get_visible_robot_map()
         fuel_map = self.get_fuel_map()
+        visible_robots = self.get_visible_robots()
         
         if self.me['unit'] == SPECS['CASTLE']:
             if(self.initial_pilgrims>0):
@@ -44,6 +50,18 @@ class MyRobot(BCAbstractRobot):
                         return self.build_unit(SPECS['PILGRIM'],dx,dy)
 
         if self.me['unit'] == SPECS['PILGRIM']:
-            pass
+            if self.destination == None:
+                self.destination = get_closest_resource(karbonite_map,self.x,self.y)
+
+            if self.me.karbonite == SPECS['UNITS'][SPECS["PILGRIM"]]['KARBONITE_CAPACITY'] and :
+                pass
+            if(self.x == self.destination[0] and self.y == self.destination[1]):
+                self.mine()
+
+    def get_closest_resource(self,map,x,y):
+        pass
+
+    def move_to(self,x,y,passable_map,visible_map):
+        pass
 
 robot = MyRobot()
