@@ -1,6 +1,7 @@
 from battlecode import BCAbstractRobot, SPECS
 import battlecode as bc
 import random
+import path_finding
 
 __pragma__('iconv')
 __pragma__('tconv')
@@ -44,33 +45,22 @@ class MyRobot(BCAbstractRobot):
                 d = (x-loc[0]) ** 2 + (y-loc[1]) ** 2
                 if map[y][x] and d < best_dist_sq:
                     best_dist_sq = d
-                    closest_loc = (x, y)
+                    closest_loc = {'x':x,'y':y}
         return closest_loc
 
     # moves "smartly" to [x,y]. Make sure [x,y] is passable
     def move_to(self, passable_map, visible_map):
         y = self.y
         x = self.x
-        if(x == self.destination[0] and y == self.destination[1]):
+        if(x == self.destination[1] and y==self.destination[0]):
             return None
         for i in range(len(self.destination_path)-1, -1, -1):
             x1, y1 = self.destination_path[i]
             if(passable_map[y][x] and visible_map[y][x] == 0 and (x-x1)**2+(y-y1)**2 <= SPECS['UNITS'][self.me.unit()]['SPEED']):
                 return self.move(x1-x, y1-y)
 
-    # returns path to [x,y], tile by tile
-    def get_path(self, x, y, passable_map):
-        m = [[None for i in range(len(passable_map))]
-             for i in range(len(passable_map))]
-        m[y][x] = 0
-        for dx, dy in self.surrounding_tiles:
-            x1 = x+dx
-            y1 = y+dy
-            if(self.in_map(x1, y1, len(passable_map)) and passable_map[y][x]):
-                l.put([x1, y1])
-            while(l.qsize()):
-                x, y = l.get()
-                # Maneg hog maado
+    def get_path(self,x,y,passable_map): #returns path to [x,y], tile by tile
+        return path_finding.astar(passable_map,[self.y,self.x],[y,x])
 
     def in_map(self, x, y, n):
         if(x >= 0 and y >= 0 and x < n and y < n):
