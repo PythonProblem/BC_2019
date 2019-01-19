@@ -5,7 +5,7 @@ import nav
 
 __pragma__('iconv')
 __pragma__('tconv')
-__pragma__('opov')
+# __pragma__('opov')
 
 
 # don't try to use global variables!!
@@ -16,9 +16,11 @@ class MyRobot(BCAbstractRobot):
     base = None
     destination = None
     enemyCastles = []
-    pendingCastleLoc = None # have to send over two turns, this is for when we've only sent half a castle loc
+    # have to send over two turns, this is for when we've only sent half a castle loc
+    pendingCastleLoc = None
     partialCastleLocsRecieved = dict()
-    adjacentdirs = [(0,1), (1,1), (1,0), (1,-1), (0,-1), (-1, -1), (-1, 0), (-1, 1),]
+    adjacentdirs = [(0, 1), (1, 1), (1, 0), (1, -1),
+                    (0, -1), (-1, -1), (-1, 0), (-1, 1), ]
     spawnloc = None
 
     def turn(self):
@@ -34,7 +36,8 @@ class MyRobot(BCAbstractRobot):
             # first turn!
             self.spawnloc = (self.me['x'], self.me['y'])
 
-        self.log('unit ' + str(self.me['unit']) + ' known enemy castle locations: ' + str(self.enemyCastles))
+        self.log('unit ' + str(self.me['unit']) +
+                 ' known enemy castle locations: ' + str(self.enemyCastles))
 
         # get attackable robots
         attackable = []
@@ -51,18 +54,21 @@ class MyRobot(BCAbstractRobot):
                     # found enemy castle! tell the whole team
                     if self.pendingCastleLoc is not None:
                         # first, finish sending pending castle locs
-                        self.log('signaling castle yloc: ' + str(self.pendingCastleLoc))
+                        self.log('signaling castle yloc: ' +
+                                 str(self.pendingCastleLoc))
                         self.castle_talk(self.pendingCastleLoc)
                         self.pendingCastleLoc = None
                     else:
-                        self.log('signaling castle xloc: ' + str((r['x'], r['y'])))
+                        self.log('signaling castle xloc: ' +
+                                 str((r['x'], r['y'])))
                         self.castle_talk(r['x'])
                         self.pendingCastleLoc = r['y']
             if r['team'] == self.me['team'] and r['unit'] == SPECS['CASTLE']:
                 # give resources if have any
                 if (self.me.karbonite > 0 or self.me.fuel > 0) and dist < 3.5:
                     if self.me['unit'] == SPECS['PILGRIM']:
-                        self.destination = self.find_nearest(self.karbonite_map, (self.me['x'], self.me['y']))
+                        self.destination = self.find_nearest(
+                            self.karbonite_map, (self.me['x'], self.me['y']))
                     return self.give(r['x'] - self.me['x'], r['y'] - self.me['y'], self.me.karbonite, self.me.fuel)
 
         if self.me['unit'] == SPECS['CRUSADER']:
@@ -71,19 +77,22 @@ class MyRobot(BCAbstractRobot):
             if attackable:
                 # attack first robot
                 r = attackable[0]
-                self.log('attacking! ' + str(r) + ' at loc ' + (r['x'] - self.me['x'], r['y'] - self.me['y']))
+                self.log('attacking! ' + str(r) + ' at loc ' +
+                         (r['x'] - self.me['x'], r['y'] - self.me['y']))
                 return self.attack(r['x'] - self.me['x'], r['y'] - self.me['y'])
 
             my_coord = (self.me['x'], self.me['y'])
             self.already_been[my_coord] = True
             if not self.destination:
-                self.destination = nav.reflect(self.map, my_coord, self.me['id'] % 2)
+                self.destination = nav.reflect(
+                    self.map, my_coord, self.me['id'] % 2)
             return self.move(*nav.goto(my_coord, self.destination, self.map, visible_robot_map, self.already_been))
 
         elif self.me['unit'] == SPECS['PILGRIM']:
             if self.destination is None:
                 # find nearest karbonite
-                self.destination = self.find_nearest(self.karbonite_map, (self.me['x'], self.me['y']))
+                self.destination = self.find_nearest(
+                    self.karbonite_map, (self.me['x'], self.me['y']))
                 # self.log('I have a destination! ' + str(self.destination))
             if self.karbonite_map[self.me['y']][self.me['x']]:
                 # on karbonite!
@@ -116,11 +125,13 @@ class MyRobot(BCAbstractRobot):
             if self.karbonite >= 20:
                 if self.me['turn'] % 2 == 0:
                     # build a pilgrim
-                    self.log("Building a pilgrim at " + str(self.me['x']+1) + ", " + str(self.me['y']+1))
+                    self.log("Building a pilgrim at " +
+                             str(self.me['x']+1) + ", " + str(self.me['y']+1))
                     return self.build_unit(SPECS['PILGRIM'], 1, 1)
                 else:
                     # crusader
-                    self.log("Building a crusader at " + str(self.me['x']+1) + ", " + str(self.me['y']+1))
+                    self.log("Building a crusader at " +
+                             str(self.me['x']+1) + ", " + str(self.me['y']+1))
                     return self.build_unit(SPECS['CRUSADER'], 1, 1)
 
             else:
@@ -147,8 +158,6 @@ class MyRobot(BCAbstractRobot):
     #         current = q.pop(0)
     #     return current
 
-
-
     def find_nearest(self, m, loc):
         closest_loc = (-1, -1)
         best_dist_sq = 64 * 64 + 64 * 64 + 1
@@ -158,10 +167,10 @@ class MyRobot(BCAbstractRobot):
             for y in range(len(m[0])):
                 if (y - loc[1])**2 > best_dist_sq:
                     continue
-                d = (x-loc[0]) ** 2 + (y-loc[1]) **2
+                d = (x-loc[0]) ** 2 + (y-loc[1]) ** 2
                 if m[y][x] and d < best_dist_sq:
                     best_dist_sq = d
-                    closest_loc = (x,y)
+                    closest_loc = (x, y)
         return closest_loc
 
 

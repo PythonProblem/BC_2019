@@ -45,13 +45,13 @@ class MyRobot(BCAbstractRobot):
                 d = (x-loc[0]) ** 2 + (y-loc[1]) ** 2
                 if map[y][x] and d < best_dist_sq:
                     best_dist_sq = d
-                    closest_loc = {'x': x, 'y': y}
+                    closest_loc = (x, y)
         return closest_loc
 
     # moves "smartly" to [x,y]. Make sure [x,y] is passable
     def move_to(self, passable_map, visible_map):
-        y = self.y
-        x = self.x
+        y = self.me['y']
+        x = self.me['x']
         if(x == self.destination[1] and y == self.destination[0]):
             return None
         for i in range(len(self.destination_path)-1, -1, -1):
@@ -61,7 +61,7 @@ class MyRobot(BCAbstractRobot):
 
     # returns path to [x,y], tile by tile
     def get_path(self, x, y, passable_map):
-        return path_finding.astar(passable_map, [self.y, self.x], [y, x])
+        return path_finding.astar(passable_map, [self.me['y'], self.me['x']], [y, x])
 
     def in_map(self, x, y, n):
         if(x >= 0 and y >= 0 and x < n and y < n):
@@ -69,7 +69,7 @@ class MyRobot(BCAbstractRobot):
         return False
 
     def is_adjacent(self, r):  # Returns true if 'r' object is adjacent to 'self' object
-        l = [r.x-self.x, r.y-self.y]
+        l = [r['x']-self.me['x'], r['y']-self.me['y']]
         for i in self.surrounding_tiles:
             if(l == i):
                 return True
@@ -102,8 +102,8 @@ class MyRobot(BCAbstractRobot):
         if self.me['unit'] == SPECS['CASTLE']:
             self.log("Castle: "+str(self.round))
             for dx, dy in self.surrounding_tiles:
-                x = self.me.x+dx
-                y = self.me.y+dy
+                x = self.me['x']+dx
+                y = self.me['y']+dy
                 if(passable_map[y][x] == True and visible_map[y][x] == 0):
                     if(self.initial_pilgrims > 0):
                         self.log("Created pilgrim.")
@@ -118,16 +118,16 @@ class MyRobot(BCAbstractRobot):
             self.log("Pilgrim: "+str(self.round))
             if self.destination == None:
                 self.destination = self.get_closest_resource(
-                    karbonite_map, self.x, self.y)
+                    karbonite_map, self.me['x'], self.me['y'])
             if self.destination_path == None:
                 self.destination_path = self.get_path(*self.destination, passable_map)
 
             if self.me.karbonite == SPECS['UNITS'][SPECS["PILGRIM"]]['KARBONITE_CAPACITY']:
                 for r in visible_robots:
                     if(r.team == self.me.team and r.id == SPECS['CRUSADER'] and self.is_adjacent(r)):
-                        return self.give(r.x-self.x, r.y-self.y, self.me.karbonite, 0)
+                        return self.give(r['x']-self.me['x'], r['y']-self.me['y'], self.me.karbonite, 0)
 
-            if(self.x == self.destination[0] and self.y == self.destination[1]):
+            if(self.me['x'] == self.destination[0] and self.me['y'] == self.destination[1]):
                 return self.mine()
             else:
                 move = self.move_to(*self.destination, passable_map, visible_map)
@@ -148,7 +148,7 @@ class MyRobot(BCAbstractRobot):
                 else:
                     self.destination = self.get_closest_resource(
                         karbonite_map, self.spawnloc[0], self.spawnloc[1])
-            return self.self.move_to(*self.destination, passable_map, visible_map)
+            return self.move_to(*self.destination, passable_map, visible_map)
 
 
 robot = MyRobot()
