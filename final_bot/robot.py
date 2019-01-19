@@ -104,14 +104,14 @@ class MyRobot(BCAbstractRobot):
             if r['team'] != self.me['team'] and SPECS['UNITS'][SPECS["CRUSADER"]]['ATTACK_RADIUS'][0] <= dist <= SPECS['UNITS'][SPECS["CRUSADER"]]['ATTACK_RADIUS'][1]:
                 attackable.append(r)
             if r['team'] == self.me['team'] and r['unit'] == SPECS['CASTLE']:
-                if (self.me.karbonite > 0 or self.me.fuel > 0) and dist < 3.5):
+                if self.me.karbonite > 0 or self.me.fuel > 0 and dist < 3.5:
                     return self.give(r['x'] - self.me['x'], r['y'] - self.me['y'], self.me.karbonite, self.me.fuel)
 
         if self.me['unit'] == SPECS['CASTLE']:
             self.log("Castle: "+str(self.round))
             for dx, dy in self.surrounding_tiles:
-                x=self.me.x+dx
-                y=self.me.y+dy
+                x = self.me.x+dx
+                y = self.me.y+dy
                 if(passable_map[y][x] == True and visible_map[y][x] == 0):
                     if(self.initial_pilgrims > 0):
                         self.log("Created pilgrim.")
@@ -125,10 +125,10 @@ class MyRobot(BCAbstractRobot):
         if self.me['unit'] == SPECS['PILGRIM']:
             self.log("Pilgrim: "+str(self.round))
             if self.destination == None:
-                self.destination=self.get_closest_resource(
+                self.destination = self.get_closest_resource(
                     karbonite_map, self.x, self.y)
             if self.destination_path == None:
-                self.destination_path=self.get_path(*self.destination, passable_map)
+                self.destination_path = self.get_path(*self.destination, passable_map)
 
             if self.me.karbonite == SPECS['UNITS'][SPECS["PILGRIM"]]['KARBONITE_CAPACITY']:
                 for r in visible_robots:
@@ -138,24 +138,24 @@ class MyRobot(BCAbstractRobot):
             if(self.x == self.destination[0] and self.y == self.destination[1]):
                 return self.mine()
             else:
-                move=self.move_to(*self.destination, passable_map, visible_map)
+                move = self.move_to(*self.destination, passable_map, visible_map)
                 if(move != None):
                     return move
 
         if self.me['unit'] == SPECS["CRUSADER"]:
             self.log("Crusader" + str(self.round))
             if attackable:
-                r=attackable[0]
+                r = attackable[0]
                 self.log('attacking! ' + str(r) + ' at loc ' +
                          (r['x'] - self.me['x'], r['y'] - self.me['y']))
                 return self.attack(r['x'] - self.me['x'], r['y'] - self.me['y'])
 
             if self.destination == None:
                 if self.me.karbonite == SPECS['UNITS'][SPECS["CRUSADER"]]['KARBONITE_CAPACITY']:
-                    self.destination=self.spawnloc
+                    self.destination = self.spawnloc
                 else:
-                    self.destination=self.get_closest_resource(
-                        karbonite_map, self.spawnloc[0],self.spawnloc[1])
+                    self.destination = self.get_closest_resource(
+                        karbonite_map, self.spawnloc[0], self.spawnloc[1])
             return self.self.move_to(*self.destination, passable_map, visible_map)
 
 
