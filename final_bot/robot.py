@@ -45,22 +45,23 @@ class MyRobot(BCAbstractRobot):
                 d = (x-loc[0]) ** 2 + (y-loc[1]) ** 2
                 if map[y][x] and d < best_dist_sq:
                     best_dist_sq = d
-                    closest_loc = {'x':x,'y':y}
+                    closest_loc = {'x': x, 'y': y}
         return closest_loc
 
     # moves "smartly" to [x,y]. Make sure [x,y] is passable
     def move_to(self, passable_map, visible_map):
         y = self.y
         x = self.x
-        if(x == self.destination[1] and y==self.destination[0]):
+        if(x == self.destination[1] and y == self.destination[0]):
             return None
         for i in range(len(self.destination_path)-1, -1, -1):
             x1, y1 = self.destination_path[i]
             if(passable_map[y][x] and visible_map[y][x] == 0 and (x-x1)**2+(y-y1)**2 <= SPECS['UNITS'][self.me.unit()]['SPEED']):
                 return self.move(x1-x, y1-y)
 
-    def get_path(self,x,y,passable_map): #returns path to [x,y], tile by tile
-        return path_finding.astar(passable_map,[self.y,self.x],[y,x])
+    # returns path to [x,y], tile by tile
+    def get_path(self, x, y, passable_map):
+        return path_finding.astar(passable_map, [self.y, self.x], [y, x])
 
     def in_map(self, x, y, n):
         if(x >= 0 and y >= 0 and x < n and y < n):
@@ -82,6 +83,7 @@ class MyRobot(BCAbstractRobot):
         visible_map = self.get_visible_robot_map()
         fuel_map = self.get_fuel_map()
         visible_robots = self.get_visible_robots()
+        attackable = []
 
         if self.spawnloc is None:
             # first turn!
