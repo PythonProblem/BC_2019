@@ -2,7 +2,6 @@ from battlecode import BCAbstractRobot, SPECS
 import battlecode as bc
 import random
 
-
 __pragma__('iconv')
 __pragma__('tconv')
 #__pragma__('opov')
@@ -46,11 +45,32 @@ class MyRobot(BCAbstractRobot):
                     closest_loc = (x,y)
         return closest_loc
      
-    def move_to(self,x,y,passable_map,visible_map): #moves "smartly" to [x,y]. Make sure x,y is passable
-        return None
+    def move_to(self,passable_map,visible_map): #moves "smartly" to [x,y]. Make sure [x,y] is passable
+        y = self.y
+        x = self.x
+        if(x == self.destination[0] and y==self.destination[1]):
+            return None
+        for i in range(len(self.destination_path)-1,-1,-1):
+            x1,y1 = self.destination_path[i]
+            if(passable_map[y][x] and visible_map[y][x] == 0 and (x-x1)**2+(y-y1)**2 <= SPECS['UNITS'][self.me.unit()]['SPEED']):
+                return self.move(x1-x,y1-y)
 
     def get_path(self,x,y,passable_map): #returns path to [x,y], tile by tile
-        return []
+        m = [[None for i in range(len(passable_map))] for i in range(len(passable_map))]
+        m[y][x] = 0
+        for dx,dy in self.surrounding_tiles:
+            x1 = x+dx
+            y1 = y+dy
+            if(self.in_map(x1,y1,len(passable_map)) and passable_map[y][x]):
+                l.put([x1,y1])
+            while(l.qsize()):
+                x,y = l.get()
+                #Maneg hog maado
+
+    def in_map(self,x,y,n):
+        if(x>=0 and y>=0 and x<n and y<n):
+            return True
+        return False
 
     def is_adjacent(self,r): #Returns true if 'r' object is adjacent to 'self' object
         l = [r.x-self.x,r.y-self.y]
@@ -69,17 +89,22 @@ class MyRobot(BCAbstractRobot):
         visible_robots = self.get_visible_robots()
         
         if self.me['unit'] == SPECS['CASTLE']:
-            if(self.initial_pilgrims>0):
-                for dx,dy in self.surrounding_tiles:
-                    x = self.me.x+dx
-                    y = self.me.y+dy
-                    if(passable_map[y][x]==True and visible_map[y][x] == 0):
+            self.log("Castle: "+str(self.round))
+            for dx,dy in self.surrounding_tiles:
+                x = self.me.x+dx
+                y = self.me.y+dy
+                if(passable_map[y][x]==True and visible_map[y][x] == 0):
+                    if(self.initial_pilgrims>0):
                         self.log("Created pilgrim.")
                         self.initial_pilgrims -= 1
                         return self.build_unit(SPECS['PILGRIM'],dx,dy)
+                    elif(self.initial_crusaders>0):
+                        self.log("Created crusader.")
+                        self.initial_crusaders -= 1
+                        return self.build_unit(SPECS['CRUSADER'],dx,dy)
 
         if self.me['unit'] == SPECS['PILGRIM']:
-            
+            self.log("Pilgrim: "+str(self.round))
             if self.destination == None:
                 self.destination = self.get_closest_resource(karbonite_map,self.x,self.y)
             if self.destination_path == None:
@@ -92,7 +117,13 @@ class MyRobot(BCAbstractRobot):
 
             if(self.x == self.destination[0] and self.y == self.destination[1]):
                 return self.mine()
+            else:
+                move =  self.move_to(*self.destination,passable_map,visible_map)
+                if(move != None):
+                    return move
 
-        
+        if self.me['unit'] == SPECS["CRUSADER"]:
+            self.log("Crusader"+str(self.round))
+
 
 robot = MyRobot()
