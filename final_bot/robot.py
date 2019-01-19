@@ -77,7 +77,7 @@ class MyRobot(BCAbstractRobot):
 
     def turn(self):
         self.round += 1
-
+        attackable = []
         passable_map = self.get_passable_map()
         karbonite_map = self.get_karbonite_map()
         visible_map = self.get_visible_robot_map()
