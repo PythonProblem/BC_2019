@@ -16,6 +16,8 @@ class MyRobot(BCAbstractRobot):
 
     initial_pilgrims = 1
     initial_crusaders = 1
+    initial_church = 1
+
     spawnloc = None
 
     surrounding_tiles = [
@@ -93,17 +95,22 @@ class MyRobot(BCAbstractRobot):
             if not self.is_visible(r):
                 continue
             dist = (r['x'] - self.me['x'])**2 + (r['y'] - self.me['y'])**2
-            if r['team'] != self.me['team'] and SPECS['UNITS'][SPECS["CRUSADER"]]['ATTACK_RADIUS'][0] <= dist <= SPECS['UNITS'][SPECS["CRUSADER"]]['ATTACK_RADIUS'][1]:
+            if r['team'] != self.me['team'] and SPECS['UNITS'][self.me['unit']]['ATTACK_RADIUS'][0] <= dist <= SPECS['UNITS'][self.me['unit']]['ATTACK_RADIUS'][1]:
                 attackable.append(r)
-            if r['team'] == self.me['team'] and r['unit'] == SPECS['CASTLE']:
-                if self.me.karbonite > 0 or self.me.fuel > 0 and dist < 3.5:
+            if r['team'] == self.me['team'] and (r['unit'] == SPECS['CASTLE'] or r['unit'] == SPECS['CHURCH']):
+                if self.me.karbonite > 10 or self.me.fuel > 50 and dist < 3.5:
                     return self.give(r['x'] - self.me['x'], r['y'] - self.me['y'], self.me.karbonite, self.me.fuel)
 
         if self.me['unit'] == SPECS['CASTLE']:
-            self.log("Castle: "+str(self.round))
+            self.log("Castle: " + str(self.round))
+            if attackable:
+                r = attackable[0]
+                self.log('attacking! ' + str(r) + ' at loc ' +
+                         (r['x'] - self.me['x'], r['y'] - self.me['y']))
+                return self.attack(r['x'] - self.me['x'], r['y'] - self.me['y'])
             for dx, dy in self.surrounding_tiles:
-                x = self.me['x']+dx
-                y = self.me['y']+dy
+                x = self.me['x'] + dx
+                y = self.me['y'] + dy
                 if(passable_map[y][x] == True and visible_map[y][x] == 0):
                     if(self.initial_pilgrims > 0):
                         self.log("Created pilgrim.")
@@ -124,7 +131,23 @@ class MyRobot(BCAbstractRobot):
             if self.me.karbonite == SPECS['UNITS'][SPECS["PILGRIM"]]['KARBONITE_CAPACITY']:
                 for r in visible_robots:
                     if(r.team == self.me.team and r.id == SPECS['CRUSADER'] and self.is_adjacent(r)):
-                        return self.give(r['x']-self.me['x'], r['y']-self.me['y'], self.me.karbonite, 0)
+                        return self.give(r['x'] - self.me['x'], r['y'] - self.me['y'], self.me.karbonite, 0)
+
+            if self.initial_church > 0 and self.karbonite > 350:
+                for dx, dy in self.surrounding_tiles:
+                    x = self.me['x'] + dx
+                    y = self.me['y'] + dy
+                    if (passable_map[y][x] == True and visible_map[y][x] == 0):
+                        self.log("Created church.")
+                        self.initial_church -= 1
+                        return self.build_unit(SPECS['CHURCH'], dx, dy)
+            elif self.karbonite > 120:
+                for dx, dy in self.surrounding_tiles:
+                    x = self.me['x'] + dx
+                    y = self.me['y'] + dy
+                    if (passable_map[y][x] == True and visible_map[y][x] == 0):
+                        self.log("Created crusader.")
+                        return self.build_unit(SPECS['CRUSADER'], dx, dy)
 
             if(self.me['x'] == self.destination[0] and self.me['y'] == self.destination[1]):
                 return self.mine()
@@ -152,6 +175,15 @@ class MyRobot(BCAbstractRobot):
             move = self.move_to(*self.destination, passable_map, visible_map)
             if(move is not None):
                 return move
+
+        if self.me['unit'] == SPECS['CHURCH']:
+            self.log("Church: "+str(self.round))
+            for dx, dy in self.surrounding_tiles:
+                x = self.me['x'] + dx
+                y = self.me['y'] + dy
+                if(passable_map[y][x] == True and visible_map[y][x] == 0 and self.karbonite > 100):
+                    self.log("Created crusader at " + (dx, dy))
+                    return self.build_unit(SPECS['CRUSADER'], dx, dy)
 
 
 robot = MyRobot()
