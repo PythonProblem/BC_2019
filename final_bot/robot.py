@@ -32,18 +32,18 @@ class MyRobot(BCAbstractRobot):
     destination = None
     destination_path = None
 
-    def get_closest_resource(self, map, x, y):  # Gives x,y of closest resource
+    def get_closest_resource(self, m, x, y):  # Gives x,y of closest resource
         loc = [x, y]
         closest_loc = (-1, -1)
         best_dist_sq = 64 * 64 + 64 * 64 + 1
-        for x in range(len(map)):
+        for x in range(len(m)):
             if (x - loc[0])**2 > best_dist_sq:
                 continue
-            for y in range(len(map[0])):
+            for y in range(len(m[0])):
                 if (y - loc[1])**2 > best_dist_sq:
                     continue
                 d = (x-loc[0]) ** 2 + (y-loc[1]) ** 2
-                if map[y][x] and d < best_dist_sq:
+                if m[y][x] and d < best_dist_sq:
                     best_dist_sq = d
                     closest_loc = (x, y)
         return closest_loc
@@ -116,12 +116,11 @@ class MyRobot(BCAbstractRobot):
 
         if self.me['unit'] == SPECS['PILGRIM']:
             self.log("Pilgrim: "+str(self.round))
-            if self.destination == None:
+            if self.destination is None:
                 self.destination = self.get_closest_resource(
                     karbonite_map, self.me['x'], self.me['y'])
-            if self.destination_path == None:
+            if self.destination_path is None:
                 self.destination_path = self.get_path(*self.destination, passable_map)
-
             if self.me.karbonite == SPECS['UNITS'][SPECS["PILGRIM"]]['KARBONITE_CAPACITY']:
                 for r in visible_robots:
                     if(r.team == self.me.team and r.id == SPECS['CRUSADER'] and self.is_adjacent(r)):
@@ -131,7 +130,7 @@ class MyRobot(BCAbstractRobot):
                 return self.mine()
             else:
                 move = self.move_to(*self.destination, passable_map, visible_map)
-                if(move != None):
+                if(move is not None):
                     return move
 
         if self.me['unit'] == SPECS["CRUSADER"]:
@@ -142,13 +141,17 @@ class MyRobot(BCAbstractRobot):
                          (r['x'] - self.me['x'], r['y'] - self.me['y']))
                 return self.attack(r['x'] - self.me['x'], r['y'] - self.me['y'])
 
-            if self.destination == None:
+            if self.destination is None:
                 if self.me.karbonite == SPECS['UNITS'][SPECS["CRUSADER"]]['KARBONITE_CAPACITY']:
                     self.destination = self.spawnloc
                 else:
                     self.destination = self.get_closest_resource(
                         karbonite_map, self.spawnloc[0], self.spawnloc[1])
-            return self.move_to(*self.destination, passable_map, visible_map)
+            if self.destination_path is None:
+                self.destination_path = self.get_path(*self.destination, passable_map)
+            move = self.move_to(*self.destination, passable_map, visible_map)
+            if(move is not None):
+                return move
 
 
 robot = MyRobot()
