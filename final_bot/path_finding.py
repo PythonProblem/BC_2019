@@ -1,4 +1,4 @@
-
+import heap
 
 class Node():
     """A node class for A* Pathfinding"""
@@ -14,6 +14,9 @@ class Node():
     def __eq__(self, other):
         return self.position == other.position
 
+def compare(parent, child):
+    return parent.f <= child.f
+
 def astar(maze, start, end):
     """Returns a list of tuples as a path from the given start to the given end in the given maze"""
 
@@ -24,26 +27,27 @@ def astar(maze, start, end):
     end_node.g = end_node.h = end_node.f = 0
 
     # Initialize both open and closed list
-    open_list = []
-    closed_list = []
+    open_heap = heap.Heap(compare)
+    closed_list = [[0 for i in range(len(maze))] for i in range(len(maze))]
+    open_list = [[0 for i in range(len(maze))] for i in range(len(maze))]
+
 
     # Add the start node
-    open_list.append(start_node)
+    open_heap.add(start_node)
+    x,y = start_node.position
+    open_list[x][y] = 1
 
     # Loop until you find the end
-    while len(open_list) > 0:
+    while not open_heap.is_empty():
 
         # Get the current node
-        current_node = open_list[0]
-        current_index = 0
-        for index, item in enumerate(open_list):
-            if item.f < current_node.f:
-                current_node = item
-                current_index = index
+        current_node = open_heap.min()
 
         # Pop current off open list, add to closed list
-        open_list.pop(current_index)
-        closed_list.append(current_node)
+        open_heap.del_min()
+        x,y = current_node.position
+        closed_list[x][y] = 1
+        open_list[x][y] = 0
 
         # Found the goal
         if current_node == end_node:
@@ -52,7 +56,7 @@ def astar(maze, start, end):
             while current is not None:
                 path.append(current.position)
                 current = current.parent
-            return path[::-1] # Return reversed path
+            return path # Return reversed path
 
         # Generate children
         children = []
@@ -66,7 +70,7 @@ def astar(maze, start, end):
                 continue
 
             # Make sure walkable terrain
-            if maze[node_position[0]][node_position[1]] != 1:
+            if maze[node_position[0]][node_position[1]] != True:
                 continue
 
             # Create new node
@@ -79,9 +83,9 @@ def astar(maze, start, end):
         for child in children:
 
             # Child is on the closed list
-            for closed_child in closed_list:
-                if child == closed_child:
-                    continue
+            x,y = child.position
+            if closed_list[x][y]:
+                continue
 
             # Create the f, g, and h values
             child.g = current_node.g + 1
@@ -89,16 +93,28 @@ def astar(maze, start, end):
             child.f = child.g + child.h
 
             # Child is already in the open list
-            for open_node in open_list:
-                if child == open_node and child.g > open_node.g:
-                    continue
+            if open_list[x][y]:
+                continue
 
             # Add the child to the open list
-            open_list.append(child)
+            open_heap.add(child)
+            x,y = child.position
+            open_list[x][y] = 1
 
 
 def main():
-
+    m = [
+            [True, True, True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True, True, True], 
+            [True, False, False, False, False, False, False, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, False, False, False, False, False, False, True], 
+            [True, False, False, False, False, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, False, False, False, False, True], 
+            [True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True], 
+            [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], 
+            [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], 
+            [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], 
+            [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True, True, True], [True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True], [True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, False, False, True, False, False, False, False, False, True, True, True, False, True, True, True, True, True, True, False, True, True, True, False, False, False, False, False, True, False, False, True], [True, True, True, False, False, False, False, False, False, False, False, False, False, False, True, True, True, True, False, False, False, False, False, False, False, False, False, False, False, True, True, True], [True, True, True, True, True, True, True, False, False, False, False, False, False, False, True, True, True, True, False, False, False, False, False, False, False, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, False, False, False, False, False, False, True, True, True, True, False, False, False, False, False, False, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True], [True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True], [True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True], [True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]]
+    
+    start = (12,24)
+    end  = (13, 26)
     maze = [[0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
             [0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
             [0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
@@ -110,10 +126,10 @@ def main():
             [0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
             [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]]
 
-    start = (0, 4)
-    end = (8, 4)
+    #start = (0, 4)
+    #end = (8, 4)
 
-    path = astar(maze, start, end)
+    path = astar(m, start, end)
     print(path)
 
 

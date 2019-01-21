@@ -1,0 +1,1794 @@
+[31m[Robot 1311 Log][0m "Building a crusader at 7, 14"
+[34m[Robot 2515 Log][0m Castle: 1
+[34m[Robot 2515 Log][0m Created pilgrim.
+[31m[Robot 3154 Log][0m "START TURN 0"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[31m[Robot 3154 Error][0m Cannot move onto impassable terrain.
+[34m[Robot 2576 Log][0m Pilgrim:
+[34m[Robot 2576 Log][0m [[True, True, True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True, True, True], [True, False, False, False, False, False, False, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, False, False, False, False, False, False, True], [True, False, False, False, False, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, False, False, False, False, True], [True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True, True, True], [True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True], [True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, False, False, True, False, False, False, False, False, True, True, True, False, True, True, True, True, True, True, False, True, True, True, False, False, False, False, False, True, False, False, True], [True, True, True, False, False, False, False, False, False, False, False, False, False, False, True, True, True, True, False, False, False, False, False, False, False, False, False, False, False, True, True, True], [True, True, True, True, True, True, True, False, False, False, False, False, False, False, True, True, True, True, False, False, False, False, False, False, False, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, False, False, False, False, False, False, True, True, True, True, False, False, False, False, False, False, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True], [True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True], [True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True], [True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]]
+[34m[Robot 2576 Log][0m 24 12
+[34m[Robot 2576 Log][0m None
+[34m[Robot 2515 Log][0m Castle: 2
+[34m[Robot 2515 Log][0m Created crusader.
+[31m[Robot 3154 Log][0m "START TURN 1"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[31m[Robot 3154 Error][0m Cannot move onto occupied tile.
+[34m[Robot 2576 Log][0m Pilgrim:
+[34m[Robot 2576 Log][0m 
+[34m[Robot 2515 Log][0m Castle: 3
+[31m[Robot 3154 Log][0m "START TURN 2"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Log][0m Pilgrim:
+[34m[Robot 2576 Log][0m [[True, True, True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True, True, True], [True, False, False, False, False, False, False, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, False, False, False, False, False, False, True], [True, False, False, False, False, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, False, False, False, False, True], [True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True, True, True], [True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True], [True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, False, False, True, False, False, False, False, False, True, True, True, False, True, True, True, True, True, True, False, True, True, True, False, False, False, False, False, True, False, False, True], [True, True, True, False, False, False, False, False, False, False, False, False, False, False, True, True, True, True, False, False, False, False, False, False, False, False, False, False, False, True, True, True], [True, True, True, True, True, True, True, False, False, False, False, False, False, False, True, True, True, True, False, False, False, False, False, False, False, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, False, False, False, False, False, False, True, True, True, True, False, False, False, False, False, False, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True], [True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True], [True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True], [True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]]
+[34m[Robot 2576 Log][0m 24 12
+[34m[Robot 2576 Log][0m (26, 13)
+[34m[Robot 2515 Log][0m Castle: 4
+[31m[Robot 3154 Log][0m "START TURN 3"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Log][0m Pilgrim:
+[34m[Robot 2576 Log][0m [[True, True, True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True, True, True], [True, False, False, False, False, False, False, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, False, False, False, False, False, False, True], [True, False, False, False, False, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, False, False, False, False, True], [True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True, True, True], [True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True], [True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, False, False, True, False, False, False, False, False, True, True, True, False, True, True, True, True, True, True, False, True, True, True, False, False, False, False, False, True, False, False, True], [True, True, True, False, False, False, False, False, False, False, False, False, False, False, True, True, True, True, False, False, False, False, False, False, False, False, False, False, False, True, True, True], [True, True, True, True, True, True, True, False, False, False, False, False, False, False, True, True, True, True, False, False, False, False, False, False, False, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, False, False, False, False, False, False, True, True, True, True, False, False, False, False, False, False, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True], [True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True], [True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True], [True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]]
+[34m[Robot 2576 Log][0m 24 12
+[34m[Robot 2576 Log][0m (26, 13)
+[34m[Robot 2515 Log][0m Castle: 5
+[31m[Robot 3154 Log][0m "START TURN 4"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Log][0m Pilgrim:
+[34m[Robot 2576 Log][0m [[True, True, True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True, True, True], [True, False, False, False, False, False, False, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, False, False, False, False, False, False, True], [True, False, False, False, False, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, False, False, False, False, True], [True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True, True, True], [True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True], [True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, False, False, True, False, False, False, False, False, True, True, True, False, True, True, True, True, True, True, False, True, True, True, False, False, False, False, False, True, False, False, True], [True, True, True, False, False, False, False, False, False, False, False, False, False, False, True, True, True, True, False, False, False, False, False, False, False, False, False, False, False, True, True, True], [True, True, True, True, True, True, True, False, False, False, False, False, False, False, True, True, True, True, False, False, False, False, False, False, False, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, False, False, False, False, False, False, True, True, True, True, False, False, False, False, False, False, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True], [True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True], [True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True], [True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]]
+[34m[Robot 2576 Log][0m 24 12
+[34m[Robot 2576 Log][0m (26, 13)
+[34m[Robot 2515 Log][0m Castle: 6
+[31m[Robot 3154 Log][0m "START TURN 5"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Log][0m Pilgrim:
+[34m[Robot 2576 Log][0m [[True, True, True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True, True, True], [True, False, False, False, False, False, False, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, False, False, False, False, False, False, True], [True, False, False, False, False, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, False, False, False, False, True], [True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True, True, True], [True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True], [True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, False, False, True, False, False, False, False, False, True, True, True, False, True, True, True, True, True, True, False, True, True, True, False, False, False, False, False, True, False, False, True], [True, True, True, False, False, False, False, False, False, False, False, False, False, False, True, True, True, True, False, False, False, False, False, False, False, False, False, False, False, True, True, True], [True, True, True, True, True, True, True, False, False, False, False, False, False, False, True, True, True, True, False, False, False, False, False, False, False, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, False, False, False, False, False, False, True, True, True, True, False, False, False, False, False, False, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True], [True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True], [True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True], [True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]]
+[34m[Robot 2576 Log][0m 24 12
+[34m[Robot 2576 Log][0m (26, 13)
+[34m[Robot 2515 Log][0m Castle: 7
+[31m[Robot 3154 Log][0m "START TURN 6"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Log][0m Pilgrim:
+[34m[Robot 2576 Log][0m [[True, True, True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True, True, True], [True, False, False, False, False, False, False, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, False, False, False, False, False, False, True], [True, False, False, False, False, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, False, False, False, False, True], [True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True, True, True], [True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True], [True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, False, False, True, False, False, False, False, False, True, True, True, False, True, True, True, True, True, True, False, True, True, True, False, False, False, False, False, True, False, False, True], [True, True, True, False, False, False, False, False, False, False, False, False, False, False, True, True, True, True, False, False, False, False, False, False, False, False, False, False, False, True, True, True], [True, True, True, True, True, True, True, False, False, False, False, False, False, False, True, True, True, True, False, False, False, False, False, False, False, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, False, False, False, False, False, False, True, True, True, True, False, False, False, False, False, False, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True], [True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True], [True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True], [True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]]
+[34m[Robot 2576 Log][0m 24 12
+[34m[Robot 2576 Log][0m (26, 13)
+[34m[Robot 2515 Log][0m Castle: 8
+[31m[Robot 3154 Log][0m "START TURN 7"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Log][0m Pilgrim:
+[34m[Robot 2576 Log][0m [[True, True, True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True, True, True], [True, False, False, False, False, False, False, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, False, False, False, False, False, False, True], [True, False, False, False, False, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, False, False, False, False, True], [True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True, True, True], [True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True], [True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True], [True, False, False, True, False, False, False, False, False, True, True, True, False, True, True, True, True, True, True, False, True, True, True, False, False, False, False, False, True, False, False, True], [True, True, True, False, False, False, False, False, False, False, False, False, False, False, True, True, True, True, False, False, False, False, False, False, False, False, False, False, False, True, True, True], [True, True, True, True, True, True, True, False, False, False, False, False, False, False, True, True, True, True, False, False, False, False, False, False, False, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, False, False, False, False, False, False, True, True, True, True, False, False, False, False, False, False, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, False, False, False, True, True, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True], [True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True], [True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True], [True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]]
+[34m[Robot 2576 Log][0m 24 12
+[34m[Robot 2576 Log][0m (26, 13)
+[34m[Robot 2515 Log][0m Castle: 9
+[31m[Robot 3154 Log][0m "START TURN 8"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 18ms.
+[34m[Robot 2515 Log][0m Castle: 10
+[31m[Robot 3154 Log][0m "START TURN 9"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 133ms.
+[31m[Robot 1311 Log][0m "Building a crusader at 7, 14"
+[34m[Robot 2515 Log][0m Castle: 11
+[31m[Robot 3154 Log][0m "START TURN 10"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 113ms.
+[31m[Robot 1389 Log][0m "START TURN 0"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 1389 Error][0m Cannot move onto occupied tile.
+[34m[Robot 2515 Log][0m Castle: 12
+[31m[Robot 3154 Log][0m "START TURN 11"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 93ms.
+[31m[Robot 1389 Log][0m "START TURN 1"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 13
+[31m[Robot 3154 Log][0m "START TURN 12"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 73ms.
+[31m[Robot 1389 Log][0m "START TURN 2"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 14
+[31m[Robot 3154 Log][0m "START TURN 13"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 53ms.
+[31m[Robot 1389 Log][0m "START TURN 3"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 1389 Error][0m Cannot move onto impassable terrain.
+[34m[Robot 2515 Log][0m Castle: 15
+[31m[Robot 3154 Log][0m "START TURN 14"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 33ms.
+[31m[Robot 1389 Log][0m "START TURN 4"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 1389 Error][0m Cannot move onto impassable terrain.
+[34m[Robot 2515 Log][0m Castle: 16
+[31m[Robot 3154 Log][0m "START TURN 15"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 13ms.
+[31m[Robot 1389 Log][0m "START TURN 5"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 1389 Error][0m Cannot move onto occupied tile.
+[34m[Robot 2515 Log][0m Castle: 17
+[31m[Robot 3154 Log][0m "START TURN 16"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 129ms.
+[31m[Robot 1389 Log][0m "START TURN 6"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 1389 Error][0m Cannot move onto impassable terrain.
+[34m[Robot 2515 Log][0m Castle: 18
+[31m[Robot 3154 Log][0m "START TURN 17"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 109ms.
+[31m[Robot 1389 Log][0m "START TURN 7"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 1389 Error][0m Cannot move onto impassable terrain.
+[34m[Robot 2515 Log][0m Castle: 19
+[31m[Robot 3154 Log][0m "START TURN 18"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 89ms.
+[31m[Robot 1389 Log][0m "START TURN 8"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 1389 Error][0m Cannot move onto occupied tile.
+[34m[Robot 2515 Log][0m Castle: 20
+[31m[Robot 3154 Log][0m "START TURN 19"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 69ms.
+[31m[Robot 1389 Log][0m "START TURN 9"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 1389 Error][0m Cannot move onto occupied tile.
+[31m[Robot 1311 Log][0m "Building a crusader at 7, 14"
+[31m[Robot 1311 Error][0m Cannot build on occupied tile.
+[34m[Robot 2515 Log][0m Castle: 21
+[31m[Robot 3154 Log][0m "START TURN 20"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 49ms.
+[31m[Robot 1389 Log][0m "START TURN 10"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 1389 Error][0m Cannot move onto impassable terrain.
+[34m[Robot 2515 Log][0m Castle: 22
+[31m[Robot 3154 Log][0m "START TURN 21"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 29ms.
+[31m[Robot 1389 Log][0m "START TURN 11"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 23
+[31m[Robot 3154 Log][0m "START TURN 22"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 9ms.
+[31m[Robot 1389 Log][0m "START TURN 12"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 24
+[31m[Robot 3154 Log][0m "START TURN 23"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 137ms.
+[31m[Robot 1389 Log][0m "START TURN 13"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 25
+[31m[Robot 3154 Log][0m "START TURN 24"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 117ms.
+[31m[Robot 1389 Log][0m "START TURN 14"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 26
+[31m[Robot 3154 Log][0m "START TURN 25"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 97ms.
+[31m[Robot 1389 Log][0m "START TURN 15"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 27
+[31m[Robot 3154 Log][0m "START TURN 26"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[31m[Robot 3154 Error][0m Cannot move onto impassable terrain.
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 77ms.
+[31m[Robot 1389 Log][0m "START TURN 16"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 28
+[31m[Robot 3154 Log][0m "START TURN 27"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 57ms.
+[31m[Robot 1389 Log][0m "START TURN 17"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 29
+[31m[Robot 3154 Log][0m "START TURN 28"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 37ms.
+[31m[Robot 1389 Log][0m "START TURN 18"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 30
+[31m[Robot 3154 Log][0m "START TURN 29"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 17ms.
+[31m[Robot 1389 Log][0m "START TURN 19"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 1311 Log][0m "Building a crusader at 7, 14"
+[34m[Robot 2515 Log][0m Castle: 31
+[31m[Robot 3154 Log][0m "START TURN 30"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 137ms.
+[31m[Robot 1389 Log][0m "START TURN 20"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 0"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 32
+[31m[Robot 3154 Log][0m "START TURN 31"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 117ms.
+[31m[Robot 1389 Log][0m "START TURN 21"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 1"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 33
+[31m[Robot 3154 Log][0m "START TURN 32"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 97ms.
+[31m[Robot 1389 Log][0m "START TURN 22"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 2"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 34
+[31m[Robot 3154 Log][0m "START TURN 33"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 77ms.
+[31m[Robot 1389 Log][0m "START TURN 23"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 3"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 35
+[31m[Robot 3154 Log][0m "START TURN 34"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 57ms.
+[31m[Robot 1389 Log][0m "START TURN 24"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 4"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 36
+[31m[Robot 3154 Log][0m "START TURN 35"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 37ms.
+[31m[Robot 1389 Log][0m "START TURN 25"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 5"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 37
+[31m[Robot 3154 Log][0m "START TURN 36"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 17ms.
+[31m[Robot 1389 Log][0m "START TURN 26"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 6"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 38
+[31m[Robot 3154 Log][0m "START TURN 37"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 153ms.
+[31m[Robot 1389 Log][0m "START TURN 27"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 7"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 39
+[31m[Robot 3154 Log][0m "START TURN 38"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 133ms.
+[31m[Robot 1389 Log][0m "START TURN 28"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 8"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 40
+[31m[Robot 3154 Log][0m "START TURN 39"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 113ms.
+[31m[Robot 1389 Log][0m "START TURN 29"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 9"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 1311 Log][0m "Building a crusader at 7, 14"
+[34m[Robot 2515 Log][0m Castle: 41
+[31m[Robot 3154 Log][0m "START TURN 40"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 93ms.
+[31m[Robot 1389 Log][0m "START TURN 30"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 10"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 0"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 42
+[31m[Robot 3154 Log][0m "START TURN 41"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 73ms.
+[31m[Robot 1389 Log][0m "START TURN 31"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 11"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 1"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 43
+[31m[Robot 3154 Log][0m "START TURN 42"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 53ms.
+[31m[Robot 1389 Log][0m "START TURN 32"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 12"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 2"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 3063 Error][0m Cannot move onto impassable terrain.
+[34m[Robot 2515 Log][0m Castle: 44
+[31m[Robot 3154 Log][0m "START TURN 43"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 33ms.
+[31m[Robot 1389 Log][0m "START TURN 33"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 13"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 3"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 45
+[31m[Robot 3154 Log][0m "START TURN 44"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 13ms.
+[31m[Robot 1389 Log][0m "START TURN 34"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 14"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 4"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 46
+[31m[Robot 3154 Log][0m "START TURN 45"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[31m[Robot 3154 Error][0m Cannot move onto impassable terrain.
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 136ms.
+[31m[Robot 1389 Log][0m "START TURN 35"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 15"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 5"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 47
+[31m[Robot 3154 Log][0m "START TURN 46"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[31m[Robot 3154 Error][0m Cannot move onto impassable terrain.
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 116ms.
+[31m[Robot 1389 Log][0m "START TURN 36"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 16"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 6"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 48
+[31m[Robot 3154 Log][0m "START TURN 47"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 96ms.
+[31m[Robot 1389 Log][0m "START TURN 37"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 17"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 7"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 49
+[31m[Robot 3154 Log][0m "START TURN 48"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[31m[Robot 3154 Error][0m Cannot move onto impassable terrain.
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 76ms.
+[31m[Robot 1389 Log][0m "START TURN 38"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 18"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 8"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 3063 Error][0m Cannot move onto impassable terrain.
+[34m[Robot 2515 Log][0m Castle: 50
+[31m[Robot 3154 Log][0m "START TURN 49"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 56ms.
+[31m[Robot 1389 Log][0m "START TURN 39"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 19"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 9"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 1311 Log][0m "Building a crusader at 7, 14"
+[34m[Robot 2515 Log][0m Castle: 51
+[31m[Robot 3154 Log][0m "START TURN 50"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 36ms.
+[31m[Robot 1389 Log][0m "START TURN 40"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 20"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 10"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 0"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 52
+[31m[Robot 3154 Log][0m "START TURN 51"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 16ms.
+[31m[Robot 1389 Log][0m "START TURN 41"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 21"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 11"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 1"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 53
+[31m[Robot 3154 Log][0m "START TURN 52"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 142ms.
+[31m[Robot 1389 Log][0m "START TURN 42"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 22"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 12"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 2"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 54
+[31m[Robot 3154 Log][0m "START TURN 53"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 122ms.
+[31m[Robot 1389 Log][0m "START TURN 43"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 23"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 13"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 3"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 55
+[31m[Robot 3154 Log][0m "START TURN 54"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 102ms.
+[31m[Robot 1389 Log][0m "START TURN 44"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 24"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 14"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 4"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 56
+[31m[Robot 3154 Log][0m "START TURN 55"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 82ms.
+[31m[Robot 1389 Log][0m "START TURN 45"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 25"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 15"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 5"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 57
+[31m[Robot 3154 Log][0m "START TURN 56"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 62ms.
+[31m[Robot 1389 Log][0m "START TURN 46"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 26"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 16"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 6"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 58
+[31m[Robot 3154 Log][0m "START TURN 57"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 42ms.
+[31m[Robot 1389 Log][0m "START TURN 47"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 27"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 17"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 7"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 59
+[31m[Robot 3154 Log][0m "START TURN 58"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 22ms.
+[31m[Robot 1389 Log][0m "START TURN 48"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 28"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 18"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 8"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 60
+[31m[Robot 3154 Log][0m "START TURN 59"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[31m[Robot 3154 Error][0m Cannot move onto impassable terrain.
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 2ms.
+[31m[Robot 1389 Log][0m "START TURN 49"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 29"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 19"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 3063 Error][0m Cannot move onto impassable terrain.
+[31m[Robot 2967 Log][0m "START TURN 9"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 1311 Log][0m "Building a crusader at 7, 14"
+[34m[Robot 2515 Log][0m Castle: 61
+[31m[Robot 3154 Log][0m "START TURN 60"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 126ms.
+[31m[Robot 1389 Log][0m "START TURN 50"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 30"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3585 Error][0m Cannot move onto occupied tile.
+[31m[Robot 3063 Log][0m "START TURN 20"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 10"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2577 Log][0m "START TURN 0"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[31m[Robot 2577 Error][0m Cannot move onto impassable terrain.
+[34m[Robot 2515 Log][0m Castle: 62
+[31m[Robot 3154 Log][0m "START TURN 61"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 106ms.
+[31m[Robot 1389 Log][0m "START TURN 51"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 31"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 21"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 11"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2577 Log][0m "START TURN 1"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 63
+[31m[Robot 3154 Log][0m "START TURN 62"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 86ms.
+[31m[Robot 1389 Log][0m "START TURN 52"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 32"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 22"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 12"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2577 Log][0m "START TURN 2"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 64
+[31m[Robot 3154 Log][0m "START TURN 63"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 66ms.
+[31m[Robot 1389 Log][0m "START TURN 53"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 33"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 23"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 13"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2967 Error][0m Cannot move onto impassable terrain.
+[31m[Robot 2577 Log][0m "START TURN 3"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 65
+[31m[Robot 3154 Log][0m "START TURN 64"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 46ms.
+[31m[Robot 1389 Log][0m "START TURN 54"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 34"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 24"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 14"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2967 Error][0m Cannot move onto impassable terrain.
+[31m[Robot 2577 Log][0m "START TURN 4"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[31m[Robot 2577 Error][0m Cannot move onto impassable terrain.
+[34m[Robot 2515 Log][0m Castle: 66
+[31m[Robot 3154 Log][0m "START TURN 65"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 26ms.
+[31m[Robot 1389 Log][0m "START TURN 55"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 35"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 25"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 15"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2577 Log][0m "START TURN 5"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 67
+[31m[Robot 3154 Log][0m "START TURN 66"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 6ms.
+[31m[Robot 1389 Log][0m "START TURN 56"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 1389 Error][0m Cannot move onto impassable terrain.
+[31m[Robot 3585 Log][0m "START TURN 36"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 26"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 16"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2577 Log][0m "START TURN 6"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 68
+[31m[Robot 3154 Log][0m "START TURN 67"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 127ms.
+[31m[Robot 1389 Log][0m "START TURN 57"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 37"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 27"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 17"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2577 Log][0m "START TURN 7"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 69
+[31m[Robot 3154 Log][0m "START TURN 68"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 107ms.
+[31m[Robot 1389 Log][0m "START TURN 58"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 38"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 28"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 18"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2577 Log][0m "START TURN 8"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 70
+[31m[Robot 3154 Log][0m "START TURN 69"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[31m[Robot 3154 Error][0m Cannot move onto impassable terrain.
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 87ms.
+[31m[Robot 1389 Log][0m "START TURN 59"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 1389 Error][0m Cannot move onto impassable terrain.
+[31m[Robot 3585 Log][0m "START TURN 39"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3585 Error][0m Cannot move onto impassable terrain.
+[31m[Robot 3063 Log][0m "START TURN 29"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 3063 Error][0m Cannot move onto occupied tile.
+[31m[Robot 2967 Log][0m "START TURN 19"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2577 Log][0m "START TURN 9"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[31m[Robot 1311 Log][0m "Building a crusader at 7, 14"
+[31m[Robot 1311 Error][0m Cannot afford to build specified unit.
+[34m[Robot 2515 Log][0m Castle: 71
+[31m[Robot 3154 Log][0m "START TURN 70"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[31m[Robot 3154 Error][0m Cannot move onto impassable terrain.
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 67ms.
+[31m[Robot 1389 Log][0m "START TURN 60"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 40"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 30"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 20"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2577 Log][0m "START TURN 10"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 72
+[31m[Robot 3154 Log][0m "START TURN 71"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 47ms.
+[31m[Robot 1389 Log][0m "START TURN 61"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 1389 Error][0m Cannot move onto impassable terrain.
+[31m[Robot 3585 Log][0m "START TURN 41"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 31"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 21"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2577 Log][0m "START TURN 11"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 73
+[31m[Robot 3154 Log][0m "START TURN 72"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 27ms.
+[31m[Robot 1389 Log][0m "START TURN 62"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 42"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 32"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 22"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2577 Log][0m "START TURN 12"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 74
+[31m[Robot 3154 Log][0m "START TURN 73"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 7ms.
+[31m[Robot 1389 Log][0m "START TURN 63"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 43"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 33"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 23"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2577 Log][0m "START TURN 13"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 75
+[31m[Robot 3154 Log][0m "START TURN 74"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 139ms.
+[31m[Robot 1389 Log][0m "START TURN 64"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 44"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 34"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 24"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2577 Log][0m "START TURN 14"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 76
+[31m[Robot 3154 Log][0m "START TURN 75"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 119ms.
+[31m[Robot 1389 Log][0m "START TURN 65"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 45"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 35"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 25"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2577 Log][0m "START TURN 15"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 77
+[31m[Robot 3154 Log][0m "START TURN 76"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 99ms.
+[31m[Robot 1389 Log][0m "START TURN 66"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 46"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 36"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 26"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2577 Log][0m "START TURN 16"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[31m[Robot 2577 Error][0m Cannot move onto occupied tile.
+[34m[Robot 2515 Log][0m Castle: 78
+[31m[Robot 3154 Log][0m "START TURN 77"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 79ms.
+[31m[Robot 1389 Log][0m "START TURN 67"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 47"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 37"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 27"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2577 Log][0m "START TURN 17"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 79
+[31m[Robot 3154 Log][0m "START TURN 78"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 59ms.
+[31m[Robot 1389 Log][0m "START TURN 68"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 48"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 38"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 28"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2577 Log][0m "START TURN 18"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 80
+[31m[Robot 3154 Log][0m "START TURN 79"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 39ms.
+[31m[Robot 1389 Log][0m "START TURN 69"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 1389 Error][0m Cannot move onto impassable terrain.
+[31m[Robot 3585 Log][0m "START TURN 49"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 39"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 29"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2577 Log][0m "START TURN 19"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[31m[Robot 1311 Log][0m "Building a crusader at 7, 14"
+[31m[Robot 1311 Error][0m Cannot afford to build specified unit.
+[34m[Robot 2515 Log][0m Castle: 81
+[31m[Robot 3154 Log][0m "START TURN 80"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 19ms.
+[31m[Robot 1389 Log][0m "START TURN 70"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 50"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 40"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 30"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2577 Log][0m "START TURN 20"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 82
+[31m[Robot 3154 Log][0m "START TURN 81"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 139ms.
+[31m[Robot 1389 Log][0m "START TURN 71"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 51"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 41"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 31"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2577 Log][0m "START TURN 21"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 83
+[31m[Robot 3154 Log][0m "START TURN 82"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 119ms.
+[31m[Robot 1389 Log][0m "START TURN 72"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 52"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3585 Error][0m Cannot move onto impassable terrain.
+[31m[Robot 3063 Log][0m "START TURN 42"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 3063 Error][0m Cannot move onto impassable terrain.
+[31m[Robot 2967 Log][0m "START TURN 32"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2967 Error][0m Cannot move onto impassable terrain.
+[31m[Robot 2577 Log][0m "START TURN 22"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 84
+[31m[Robot 3154 Log][0m "START TURN 83"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 99ms.
+[31m[Robot 1389 Log][0m "START TURN 73"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 53"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3585 Error][0m Cannot move onto impassable terrain.
+[31m[Robot 3063 Log][0m "START TURN 43"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 33"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2577 Log][0m "START TURN 23"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 85
+[31m[Robot 3154 Log][0m "START TURN 84"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 79ms.
+[31m[Robot 1389 Log][0m "START TURN 74"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 54"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 44"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 34"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2577 Log][0m "START TURN 24"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 86
+[31m[Robot 3154 Log][0m "START TURN 85"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 59ms.
+[31m[Robot 1389 Log][0m "START TURN 75"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 1389 Error][0m Cannot move onto impassable terrain.
+[31m[Robot 3585 Log][0m "START TURN 55"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 45"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 35"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2577 Log][0m "START TURN 25"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 87
+[31m[Robot 3154 Log][0m "START TURN 86"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 39ms.
+[31m[Robot 1389 Log][0m "START TURN 76"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 1389 Error][0m Cannot move onto impassable terrain.
+[31m[Robot 3585 Log][0m "START TURN 56"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 46"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 36"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2577 Log][0m "START TURN 26"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 88
+[31m[Robot 3154 Log][0m "START TURN 87"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 19ms.
+[31m[Robot 1389 Log][0m "START TURN 77"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 57"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 47"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 3063 Error][0m Cannot move onto impassable terrain.
+[31m[Robot 2967 Log][0m "START TURN 37"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2577 Log][0m "START TURN 27"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 89
+[31m[Robot 3154 Log][0m "START TURN 88"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 135ms.
+[31m[Robot 1389 Log][0m "START TURN 78"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 58"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 48"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 3063 Error][0m Cannot move onto impassable terrain.
+[31m[Robot 2967 Log][0m "START TURN 38"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2577 Log][0m "START TURN 28"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 90
+[31m[Robot 3154 Log][0m "START TURN 89"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 115ms.
+[31m[Robot 1389 Log][0m "START TURN 79"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 59"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 49"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 3063 Error][0m Cannot move onto impassable terrain.
+[31m[Robot 2967 Log][0m "START TURN 39"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2577 Log][0m "START TURN 29"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[31m[Robot 1311 Log][0m "Building a crusader at 7, 14"
+[31m[Robot 1311 Error][0m Cannot afford to build specified unit.
+[34m[Robot 2515 Log][0m Castle: 91
+[31m[Robot 3154 Log][0m "START TURN 90"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 95ms.
+[31m[Robot 1389 Log][0m "START TURN 80"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 60"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 50"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 40"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m []
+[31m[Robot 2577 Log][0m "START TURN 30"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 92
+[31m[Robot 3154 Log][0m "START TURN 91"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 75ms.
+[31m[Robot 1389 Log][0m "START TURN 81"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 61"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 51"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 41"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m [{"type":"robot","id":2515,"team":1,"x":25,"y":13,"unit":0,"turn":92,"signal":-1,"signal_radius":-1},{"type":"robot","id":2576,"team":1,"x":24,"y":12,"unit":2,"turn":92,"signal":-1,"signal_radius":-1}]
+[31m[Robot 2967 Log][0m "[object Object]"
+[31m[Robot 2967 Log][0m "attacking! [object Object] at loc 0"
+[31m[Robot 2577 Log][0m "START TURN 31"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 93
+[31m[Robot 3154 Log][0m "START TURN 92"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 55ms.
+[31m[Robot 1389 Log][0m "START TURN 82"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 62"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3585 Error][0m Cannot move onto impassable terrain.
+[31m[Robot 3063 Log][0m "START TURN 52"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 42"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m [{"type":"robot","id":2515,"team":1,"x":25,"y":13,"unit":0,"turn":93,"signal":-1,"signal_radius":-1},{"type":"robot","id":2576,"team":1,"x":24,"y":12,"unit":2,"turn":93,"signal":-1,"signal_radius":-1}]
+[31m[Robot 2967 Log][0m "[object Object]"
+[31m[Robot 2967 Log][0m "attacking! [object Object] at loc 0"
+[31m[Robot 2577 Log][0m "START TURN 32"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[31m[Robot 2577 Error][0m Cannot move onto occupied tile.
+[34m[Robot 2515 Log][0m Castle: 94
+[31m[Robot 3154 Log][0m "START TURN 93"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 35ms.
+[31m[Robot 1389 Log][0m "START TURN 83"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 63"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3585 Error][0m Cannot move onto impassable terrain.
+[31m[Robot 3063 Log][0m "START TURN 53"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 43"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m [{"type":"robot","id":2515,"team":1,"x":25,"y":13,"unit":0,"turn":94,"signal":-1,"signal_radius":-1},{"type":"robot","id":2576,"team":1,"x":24,"y":12,"unit":2,"turn":94,"signal":-1,"signal_radius":-1}]
+[31m[Robot 2967 Log][0m "[object Object]"
+[31m[Robot 2967 Log][0m "attacking! [object Object] at loc 0"
+[31m[Robot 2577 Log][0m "START TURN 33"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 95
+[31m[Robot 3154 Log][0m "START TURN 94"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 15ms.
+[31m[Robot 1389 Log][0m "START TURN 84"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 64"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 54"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 3063 Error][0m Cannot move onto impassable terrain.
+[31m[Robot 2967 Log][0m "START TURN 44"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m [{"type":"robot","id":2515,"team":1,"x":25,"y":13,"unit":0,"turn":95,"signal":-1,"signal_radius":-1},{"type":"robot","id":2576,"team":1,"x":24,"y":12,"unit":2,"turn":95,"signal":-1,"signal_radius":-1}]
+[31m[Robot 2967 Log][0m "[object Object]"
+[31m[Robot 2967 Log][0m "attacking! [object Object] at loc 0"
+[31m[Robot 2577 Log][0m "START TURN 34"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 96
+[31m[Robot 3154 Log][0m "START TURN 95"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 136ms.
+[31m[Robot 1389 Log][0m "START TURN 85"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 65"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 55"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 3063 Error][0m Cannot move onto impassable terrain.
+[31m[Robot 2967 Log][0m "START TURN 45"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m [{"type":"robot","id":2515,"team":1,"x":25,"y":13,"unit":0,"turn":96,"signal":-1,"signal_radius":-1},{"type":"robot","id":2576,"team":1,"x":24,"y":12,"unit":2,"turn":96,"signal":-1,"signal_radius":-1}]
+[31m[Robot 2967 Log][0m "[object Object]"
+[31m[Robot 2967 Log][0m "attacking! [object Object] at loc 0"
+[31m[Robot 2577 Log][0m "START TURN 35"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 97
+[31m[Robot 3154 Log][0m "START TURN 96"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 116ms.
+[31m[Robot 1389 Log][0m "START TURN 86"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 66"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 56"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 3063 Error][0m Cannot move onto impassable terrain.
+[31m[Robot 2967 Log][0m "START TURN 46"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m [{"type":"robot","id":2515,"team":1,"x":25,"y":13,"unit":0,"turn":97,"signal":-1,"signal_radius":-1},{"type":"robot","id":2576,"team":1,"x":24,"y":12,"unit":2,"turn":97,"signal":-1,"signal_radius":-1}]
+[31m[Robot 2967 Log][0m "[object Object]"
+[31m[Robot 2967 Log][0m "attacking! [object Object] at loc 0"
+[31m[Robot 2577 Log][0m "START TURN 36"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 98
+[31m[Robot 3154 Log][0m "START TURN 97"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 96ms.
+[31m[Robot 1389 Log][0m "START TURN 87"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 67"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 57"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 3063 Error][0m Cannot move onto impassable terrain.
+[31m[Robot 2967 Log][0m "START TURN 47"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m [{"type":"robot","id":2515,"team":1,"x":25,"y":13,"unit":0,"turn":98,"signal":-1,"signal_radius":-1},{"type":"robot","id":2576,"team":1,"x":24,"y":12,"unit":2,"turn":98,"signal":-1,"signal_radius":-1}]
+[31m[Robot 2967 Log][0m "[object Object]"
+[31m[Robot 2967 Log][0m "attacking! [object Object] at loc 0"
+[31m[Robot 2577 Log][0m "START TURN 37"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 99
+[31m[Robot 3154 Log][0m "START TURN 98"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[34m[Robot 2576 Error][0m Robot is frozen due to clock overdrawn by 76ms.
+[31m[Robot 1389 Log][0m "START TURN 88"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 68"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 58"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 3063 Error][0m Cannot move onto impassable terrain.
+[31m[Robot 2967 Log][0m "START TURN 48"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m [{"type":"robot","id":2576,"team":1,"x":24,"y":12,"unit":2,"turn":99,"signal":-1,"signal_radius":-1},{"type":"robot","id":2515,"team":1,"x":25,"y":13,"unit":0,"turn":99,"signal":-1,"signal_radius":-1}]
+[31m[Robot 2967 Log][0m "[object Object]"
+[31m[Robot 2967 Log][0m "attacking! [object Object] at loc -1"
+[31m[Robot 2577 Log][0m "START TURN 38"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 100
+[31m[Robot 3154 Log][0m "START TURN 99"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[31m[Robot 1389 Log][0m "START TURN 89"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 69"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 59"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 3063 Error][0m Cannot move onto impassable terrain.
+[31m[Robot 2967 Log][0m "START TURN 49"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m [{"type":"robot","id":2515,"team":1,"x":25,"y":13,"unit":0,"turn":100,"signal":-1,"signal_radius":-1}]
+[31m[Robot 2967 Log][0m "[object Object]"
+[31m[Robot 2967 Log][0m "attacking! [object Object] at loc 0"
+[31m[Robot 2577 Log][0m "START TURN 39"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[31m[Robot 1311 Log][0m "Building a crusader at 7, 14"
+[31m[Robot 1311 Error][0m Cannot afford to build specified unit.
+[34m[Robot 2515 Log][0m Castle: 101
+[31m[Robot 3154 Log][0m "START TURN 100"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[31m[Robot 1389 Log][0m "START TURN 90"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 70"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 60"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 50"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m [{"type":"robot","id":2515,"team":1,"x":25,"y":13,"unit":0,"turn":101,"signal":-1,"signal_radius":-1}]
+[31m[Robot 2967 Log][0m "[object Object]"
+[31m[Robot 2967 Log][0m "attacking! [object Object] at loc 0"
+[31m[Robot 2577 Log][0m "START TURN 40"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 102
+[31m[Robot 3154 Log][0m "START TURN 101"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[31m[Robot 1389 Log][0m "START TURN 91"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 71"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 61"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 3063 Error][0m Cannot move onto impassable terrain.
+[31m[Robot 2967 Log][0m "START TURN 51"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m [{"type":"robot","id":2515,"team":1,"x":25,"y":13,"unit":0,"turn":102,"signal":-1,"signal_radius":-1}]
+[31m[Robot 2967 Log][0m "[object Object]"
+[31m[Robot 2967 Log][0m "attacking! [object Object] at loc 0"
+[31m[Robot 2577 Log][0m "START TURN 41"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 103
+[31m[Robot 3154 Log][0m "START TURN 102"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[31m[Robot 1389 Log][0m "START TURN 92"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 72"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 62"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 52"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m [{"type":"robot","id":2515,"team":1,"x":25,"y":13,"unit":0,"turn":103,"signal":-1,"signal_radius":-1}]
+[31m[Robot 2967 Log][0m "[object Object]"
+[31m[Robot 2967 Log][0m "attacking! [object Object] at loc 0"
+[31m[Robot 2577 Log][0m "START TURN 42"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 104
+[31m[Robot 3154 Log][0m "START TURN 103"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[31m[Robot 1389 Log][0m "START TURN 93"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 73"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 63"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 53"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m [{"type":"robot","id":2515,"team":1,"x":25,"y":13,"unit":0,"turn":104,"signal":-1,"signal_radius":-1}]
+[31m[Robot 2967 Log][0m "[object Object]"
+[31m[Robot 2967 Log][0m "attacking! [object Object] at loc 0"
+[31m[Robot 2577 Log][0m "START TURN 43"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 105
+[31m[Robot 3154 Log][0m "START TURN 104"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[31m[Robot 1389 Log][0m "START TURN 94"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 74"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 64"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 54"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m [{"type":"robot","id":2515,"team":1,"x":25,"y":13,"unit":0,"turn":105,"signal":-1,"signal_radius":-1}]
+[31m[Robot 2967 Log][0m "[object Object]"
+[31m[Robot 2967 Log][0m "attacking! [object Object] at loc 0"
+[31m[Robot 2577 Log][0m "START TURN 44"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 106
+[31m[Robot 3154 Log][0m "START TURN 105"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[31m[Robot 1389 Log][0m "START TURN 95"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 75"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 65"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 55"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m [{"type":"robot","id":2515,"team":1,"x":25,"y":13,"unit":0,"turn":106,"signal":-1,"signal_radius":-1}]
+[31m[Robot 2967 Log][0m "[object Object]"
+[31m[Robot 2967 Log][0m "attacking! [object Object] at loc 0"
+[31m[Robot 2577 Log][0m "START TURN 45"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 107
+[31m[Robot 3154 Log][0m "START TURN 106"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[31m[Robot 1389 Log][0m "START TURN 96"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 76"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 66"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 56"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m [{"type":"robot","id":2515,"team":1,"x":25,"y":13,"unit":0,"turn":107,"signal":-1,"signal_radius":-1}]
+[31m[Robot 2967 Log][0m "[object Object]"
+[31m[Robot 2967 Log][0m "attacking! [object Object] at loc 0"
+[31m[Robot 2577 Log][0m "START TURN 46"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 108
+[31m[Robot 3154 Log][0m "START TURN 107"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[31m[Robot 1389 Log][0m "START TURN 97"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 77"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 67"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 57"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m [{"type":"robot","id":2515,"team":1,"x":25,"y":13,"unit":0,"turn":108,"signal":-1,"signal_radius":-1}]
+[31m[Robot 2967 Log][0m "[object Object]"
+[31m[Robot 2967 Log][0m "attacking! [object Object] at loc 0"
+[31m[Robot 2577 Log][0m "START TURN 47"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[34m[Robot 2515 Log][0m Castle: 109
+[31m[Robot 3154 Log][0m "START TURN 108"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[31m[Robot 1389 Log][0m "START TURN 98"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 78"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 68"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 58"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m [{"type":"robot","id":2515,"team":1,"x":25,"y":13,"unit":0,"turn":109,"signal":-1,"signal_radius":-1}]
+[31m[Robot 2967 Log][0m "[object Object]"
+[31m[Robot 2967 Log][0m "attacking! [object Object] at loc 0"
+[31m[Robot 2577 Log][0m "START TURN 48"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[31m[Robot 2577 Error][0m Cannot move onto impassable terrain.
+[34m[Robot 2515 Log][0m Castle: 110
+[31m[Robot 3154 Log][0m "START TURN 109"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[31m[Robot 1389 Log][0m "START TURN 99"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 79"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 69"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 59"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m [{"type":"robot","id":2515,"team":1,"x":25,"y":13,"unit":0,"turn":110,"signal":-1,"signal_radius":-1}]
+[31m[Robot 2967 Log][0m "[object Object]"
+[31m[Robot 2967 Log][0m "attacking! [object Object] at loc 0"
+[31m[Robot 2577 Log][0m "START TURN 49"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[31m[Robot 2577 Error][0m Cannot move onto impassable terrain.
+[31m[Robot 1311 Log][0m "Building a crusader at 7, 14"
+[31m[Robot 1311 Error][0m Cannot afford to build specified unit.
+[34m[Robot 2515 Log][0m Castle: 111
+[31m[Robot 3154 Log][0m "START TURN 110"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[31m[Robot 1389 Log][0m "START TURN 100"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 80"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 70"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 60"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m [{"type":"robot","id":2515,"team":1,"x":25,"y":13,"unit":0,"turn":111,"signal":-1,"signal_radius":-1}]
+[31m[Robot 2967 Log][0m "[object Object]"
+[31m[Robot 2967 Log][0m "attacking! [object Object] at loc 0"
+[31m[Robot 2577 Log][0m "START TURN 50"
+[31m[Robot 2577 Log][0m "Crusader health: 40"
+[31m[Robot 2577 Log][0m []
+[31m[Robot 2577 Error][0m Cannot move onto impassable terrain.
+[34m[Robot 2515 Log][0m Castle: 112
+[31m[Robot 3154 Log][0m "START TURN 111"
+[31m[Robot 3154 Log][0m "Crusader health: 40"
+[31m[Robot 3154 Log][0m []
+[31m[Robot 1389 Log][0m "START TURN 101"
+[31m[Robot 1389 Log][0m "Crusader health: 40"
+[31m[Robot 1389 Log][0m []
+[31m[Robot 3585 Log][0m "START TURN 81"
+[31m[Robot 3585 Log][0m "Crusader health: 40"
+[31m[Robot 3585 Log][0m []
+[31m[Robot 3063 Log][0m "START TURN 71"
+[31m[Robot 3063 Log][0m "Crusader health: 40"
+[31m[Robot 3063 Log][0m []
+[31m[Robot 2967 Log][0m "START TURN 61"
+[31m[Robot 2967 Log][0m "Crusader health: 40"
+[31m[Robot 2967 Log][0m [{"type":"robot","id":2515,"team":1,"x":25,"y":13,"unit":0,"turn":112,"signal":-1,"signal_radius":-1}]
+[31m[Robot 2967 Log][0m "[object Object]"
+[31m[Robot 2967 Log][0m "attacking! [object Object] at loc 0"
+Game over, red won by castle annihilation.
