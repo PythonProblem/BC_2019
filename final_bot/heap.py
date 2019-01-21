@@ -1,3 +1,4 @@
+
 class Heap(object):
     """"
     Attributes:
@@ -40,9 +41,10 @@ class Heap(object):
     def del_min(self):
         if self.is_empty():
             return None
-        x = self.heap.pop(0)
+        x = self.heap[0]
         if not self.is_empty():
-            self.heap = [self.heap[-1]] + self.heap[0:-1]
+            self.heap[0] = self.heap[-1]
+            self.heap.pop()
             self._heapify (0)
         return x
     

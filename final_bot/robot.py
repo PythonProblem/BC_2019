@@ -1,11 +1,11 @@
 from battlecode import BCAbstractRobot, SPECS
 import battlecode as bc
 import random
-#import path_finding
+import path_finding
 
 __pragma__('iconv')
 __pragma__('tconv')
-__pragma__('opov')
+#__pragma__('opov')
 
 
 # don't try to use global variables!!
@@ -75,13 +75,11 @@ class MyRobot(BCAbstractRobot):
         return False
 
     def turn(self):
-        pass
-'''
         attackable = []
         passable_map = self.get_passable_map()
         karbonite_map = self.get_karbonite_map()
         visible_map = self.get_visible_robot_map()
-        #fuel_map = self.get_fuel_map()
+        fuel_map = self.get_fuel_map()
         visible_robots = self.get_visible_robots()
 
         if self.spawnloc is None:
@@ -99,6 +97,7 @@ class MyRobot(BCAbstractRobot):
                     return self.give(r.x - self.me.x, r.y - self.me.y, self.me.karbonite, self.me.fuel)
 
         if self.me['unit'] == SPECS['CASTLE']:
+
             self.log("Castle")
             for dx, dy in self.surrounding_tiles:
                 x = self.me.x+dx
@@ -135,10 +134,10 @@ class MyRobot(BCAbstractRobot):
                     return move
 
         elif self.me['unit'] == SPECS["CRUSADER"]:
-            self.log("Crusader" + str(self.me.turn))
+            self.log("Crusader")
             if attackable:
                 r = attackable[0]
-                self.log('attacking! ' + str(r) + ' at loc ' +
+                self.log('attacking! ' + ' at loc ' +
                          (r.x - self.me.x, r.y - self.me.y))
                 return self.attack(r.x - self.me.x, r.y - self.me.y)
 
@@ -150,5 +149,5 @@ class MyRobot(BCAbstractRobot):
             move = self.move_to(*self.destination, passable_map, visible_map)
             if(move is not None):
                 return move
-'''
+
 robot = MyRobot()
